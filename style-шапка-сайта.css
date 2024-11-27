@@ -2,6 +2,7 @@
     overflow: hidden;
     background-color: #f1f1f1;
     padding: 20px 10px;
+    width: 100%;
   }
   
   /* Стиль ссылок шапки */
@@ -66,3 +67,4 @@
 .im:hover{
   box-shadow: 2px 2px 20px 0.5px black;
 }
+

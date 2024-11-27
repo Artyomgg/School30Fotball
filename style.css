@@ -4,9 +4,11 @@
     margin: 0;
 }
 body,html{
-    background: greenyellow;
-    background-size: cover;
-    background-repeat: no-repeat;
+    height: 100%;
+}
+
+body{
+    background: yellowgreen;
 }
 
 .h1 h1{
@@ -37,7 +39,7 @@ body,html{
 .conteiner1{
     width: 100%;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: flex-start;
     margin-bottom: 20px;
 }
@@ -88,3 +90,4 @@ body,html{
     box-shadow: 2px 2px 15px 2px black;
     cursor: pointer;
 }
+

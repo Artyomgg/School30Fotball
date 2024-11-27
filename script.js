@@ -21,9 +21,40 @@ function hello() {
     if (login == "Admin" && password == "2012"){
         blockN();
         alert("Привет! ")
+        
     }
     else{
         blockD();
         alert("Incorrect login or pasword!!!!!")
     }
+}
+
+let pop = document.getElementById("overlayB")
+
+let popTwo = document.getElementById('overlayBS')
+
+let popThree = document.getElementById('overlayBSS')
+
+function str() {
+    pop.style.display ="block"
+}
+
+function cl() {
+    pop.style.display ="none"
+}
+
+function str1() {
+    popTwo.style.display ="block"
+}
+
+function cl1() {
+    popTwo.style.display ="none"
+}
+
+function str2() {
+    popThree.style.display ="block"
+}
+
+function cl2() {
+    popThree.style.display ="none"
 }

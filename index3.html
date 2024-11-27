@@ -10,18 +10,20 @@
     <link rel="stylesheet" href="style-шапка-сайта.css">
     <link rel="stylesheet" href="index.php">
     <link rel="stylesheet" href="style_login.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>    
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style_footter.css">
 </head>
 <body>
     <div class="header">
         <a href="index.html" class="logo"><img src="img/1.png" alt="" srcset=""></a>
         <div class="header-right">
           <a href="index.html">Главная</a>
-          <a href="index2.html">Состав Мини-футбол</a>
-          <a class="active" href="index3.html">Схемы Мини-футбол</a>
+          <a href=# onclick="str()">Состав</a>
+          <a href=# onclick="str1()" class="active">Схемы</a>
+          <a href=# onclick="str2()">Новости</a>
           <img src="img/1.jpg" alt="" class="im" onclick="blockD()"   >
         </div>
-      </div>
+    </div>
     <div class="block2">
         <h2>Схемы Мини-футбол</h2>
         <h3>Тактика мини-футбола 2-2</h3>
@@ -48,7 +50,9 @@
             </div>
             <img src="img/3-1.jpg" alt="">
         </div>
+
     </div>
+    <div class="bl_raz"></div>
     <div id="overlay">
         
         <div class="popup">
@@ -77,6 +81,64 @@
                 </form>
             </div>
         </div>
+    </div>
+    <div id="overlayB">
+        
+        <div class="popupB">
+            <div class="wrapperB">
+                <div class="crossB">
+                    <i class='bx bx-x-circle' onclick="cl()"></i>
+                </div>
+                <form action="">
+                    <a href="index2.html">Мини-футбол</a>
+                    <a href="in.html">Большой футбол</a>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="overlayBS">
+        
+        <div class="popupB">
+            <div class="wrapperB">
+                <div class="crossB">
+                    <i class='bx bx-x-circle' onclick="cl1()"></i>
+                </div>
+                <form action="">
+                    <a href="index3.html">Мини-футбол</a>
+                    <a href="Big.html">Большой футбол</a>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div id="overlayBSS">
+        
+        <div class="popupB">
+            <div class="wrapperB">
+                <div class="crossB">
+                    <i class='bx bx-x-circle' onclick="cl2()"></i>
+                </div>
+                <form action="">
+                    <a href="https://www.sport-express.ru/futsal/">Мини-футбол</a>
+                    <a href="https://www.sport-express.ru/football/">Большой футбол</a>
+
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="foot-cont">
+        <footer>
+            <ul class="social">
+                <li><a href= "mailto:artyom07012012@gmail.com"><img src="img/free-icon-gmail-5968534.png" alt=""></a></li>
+            </ul>
+            <ul class="menu">
+                <li><a href="info.html">О нас</a></li>
+            </ul>
+            <p>©2024 FC School 30 | All Rights Reserved</p>
+        </footer>
     </div>
     <script src="script.js"></script>
 </body>
